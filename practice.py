@@ -11,7 +11,7 @@ def greet_user():
     """
 
     # ADD YOUR CODE HERE
-    pass
+    print "Welcome"
 
 
 def avg_numbers(num1, num2):
@@ -24,7 +24,7 @@ def avg_numbers(num1, num2):
     """
 
     # ADD YOUR CODE HERE
-    pass
+    return (num1 + num2)/2.0
 
 
 def print_list(lst):
@@ -37,7 +37,8 @@ def print_list(lst):
     """
 
     # ADD YOUR CODE HERE
-    pass
+    for item in lst: 
+        print item
 
 
 def calculate_total_bill(bill, tip):
@@ -52,7 +53,9 @@ def calculate_total_bill(bill, tip):
     """
 
     # ADD YOUR CODE HERE
-    pass
+    calculated_tip = bill * tip 
+    bill = bill + calculated_tip
+    return bill 
 
 
 
